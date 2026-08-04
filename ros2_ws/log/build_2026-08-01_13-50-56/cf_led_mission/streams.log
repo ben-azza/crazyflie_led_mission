@@ -1,0 +1,24 @@
+[0.773s] Invoking command in '/home/mouha/crazyflie/ros2_ws/build/cf_led_mission': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mouha/crazyflie/ros2_ws/build/cf_led_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mouha/crazyflie/ros2_ws/build/cf_led_mission/build --no-deps symlink_data
+[1.043s] running develop
+[1.210s] running egg_info
+[1.210s] creating cf_led_mission.egg-info
+[1.227s] writing cf_led_mission.egg-info/PKG-INFO
+[1.227s] writing dependency_links to cf_led_mission.egg-info/dependency_links.txt
+[1.227s] writing entry points to cf_led_mission.egg-info/entry_points.txt
+[1.228s] writing requirements to cf_led_mission.egg-info/requires.txt
+[1.228s] writing top-level names to cf_led_mission.egg-info/top_level.txt
+[1.228s] writing manifest file 'cf_led_mission.egg-info/SOURCES.txt'
+[1.261s] reading manifest file 'cf_led_mission.egg-info/SOURCES.txt'
+[1.261s] writing manifest file 'cf_led_mission.egg-info/SOURCES.txt'
+[1.278s] running build_ext
+[1.278s] Creating /home/mouha/crazyflie/ros2_ws/install/cf_led_mission/lib/python3.12/site-packages/cf-led-mission.egg-link (link to .)
+[1.279s] Installing mission_node script to /home/mouha/crazyflie/ros2_ws/install/cf_led_mission/lib/cf_led_mission
+[1.279s] 
+[1.279s] Installed /home/mouha/crazyflie/ros2_ws/build/cf_led_mission
+[1.279s] running symlink_data
+[1.279s] creating /home/mouha/crazyflie/ros2_ws/install/cf_led_mission/share/ament_index
+[1.279s] creating /home/mouha/crazyflie/ros2_ws/install/cf_led_mission/share/ament_index/resource_index
+[1.279s] creating /home/mouha/crazyflie/ros2_ws/install/cf_led_mission/share/ament_index/resource_index/packages
+[1.279s] symbolically linking /home/mouha/crazyflie/ros2_ws/build/cf_led_mission/resource/cf_led_mission -> /home/mouha/crazyflie/ros2_ws/install/cf_led_mission/share/ament_index/resource_index/packages
+[1.279s] symbolically linking /home/mouha/crazyflie/ros2_ws/build/cf_led_mission/package.xml -> /home/mouha/crazyflie/ros2_ws/install/cf_led_mission/share/cf_led_mission
+[1.310s] Invoked command in '/home/mouha/crazyflie/ros2_ws/build/cf_led_mission' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mouha/crazyflie/ros2_ws/build/cf_led_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mouha/crazyflie/ros2_ws/build/cf_led_mission/build --no-deps symlink_data

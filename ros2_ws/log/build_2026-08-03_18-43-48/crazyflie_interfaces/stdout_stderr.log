@@ -1,0 +1,24 @@
+[  0%] Built target crazyflie_interfaces__rs
+[  1%] Built target crazyflie_interfaces__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_symlink_crazyflie_interfaces
+[  1%] Built target crazyflie_interfaces__cpp
+[ 29%] Built target crazyflie_interfaces__rosidl_generator_c
+[ 39%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_c
+[ 49%] Built target crazyflie_interfaces__rosidl_typesupport_cpp
+[ 58%] Built target crazyflie_interfaces__rosidl_typesupport_c
+[ 88%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_cpp
+[ 88%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 88%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_c
+[ 88%] Built target crazyflie_interfaces
+[ 88%] Built target crazyflie_interfaces__py
+[ 97%] Built target crazyflie_interfaces__rosidl_generator_py
+[ 99%] Built target crazyflie_interfaces_s__rosidl_typesupport_introspection_c
+[ 99%] Built target crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c
+[100%] Built target crazyflie_interfaces_s__rosidl_typesupport_c
+running egg_info
+writing crazyflie_interfaces.egg-info/PKG-INFO
+writing dependency_links to crazyflie_interfaces.egg-info/dependency_links.txt
+writing top-level names to crazyflie_interfaces.egg-info/top_level.txt
+reading manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_crazyflie_interfaces_egg

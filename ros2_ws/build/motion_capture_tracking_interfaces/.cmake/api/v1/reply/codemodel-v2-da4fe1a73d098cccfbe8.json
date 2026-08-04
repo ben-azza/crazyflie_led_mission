@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3aa50e79ebce01cca4ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "motion_capture_tracking_interfaces__py",
+					"jsonFile" : "directory-motion_capture_tracking_interfaces__py-f02301728bc64f703a30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "motion_capture_tracking_interfaces__rs",
+					"jsonFile" : "directory-motion_capture_tracking_interfaces__rs-6a37f832e8ad07d24c27.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "motion_capture_tracking_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_motion_capture_tracking_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_motion_capture_tracking_interfaces_egg-3eeff6d336532e122deb.json",
+					"name" : "ament_cmake_python_build_motion_capture_tracking_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_motion_capture_tracking_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_motion_capture_tracking_interfaces-977231a2480df2b6d666.json",
+					"name" : "ament_cmake_python_symlink_motion_capture_tracking_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces-6e0ffc5e528346ca82c9.json",
+					"name" : "motion_capture_tracking_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces__cpp-1f74831643e597e92198.json",
+					"name" : "motion_capture_tracking_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "motion_capture_tracking_interfaces__py::@333237b8368675d18573",
+					"jsonFile" : "target-motion_capture_tracking_interfaces__py-a36af06067c7c6c2df63.json",
+					"name" : "motion_capture_tracking_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces__rosidl_generator_c-6c948ad9471d9fedf079.json",
+					"name" : "motion_capture_tracking_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces__rosidl_generator_py-522df3a6842c60f31d46.json",
+					"name" : "motion_capture_tracking_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces__rosidl_generator_type_description-66493a1f4a7957a446fd.json",
+					"name" : "motion_capture_tracking_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces__rosidl_typesupport_c-69a4d040429a89d173aa.json",
+					"name" : "motion_capture_tracking_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces__rosidl_typesupport_cpp-1b6aa685e1da3066bac9.json",
+					"name" : "motion_capture_tracking_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c-1af9e425f84eee59d4a4.json",
+					"name" : "motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp-7f804c40c6a66290cb02.json",
+					"name" : "motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c-ff4525af01a3a5b34c9d.json",
+					"name" : "motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp-cd0868dcfed74414db67.json",
+					"name" : "motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "motion_capture_tracking_interfaces__rs::@d2a688da1c2b6f9a2681",
+					"jsonFile" : "target-motion_capture_tracking_interfaces__rs-a62e79c270cc586d10bb.json",
+					"name" : "motion_capture_tracking_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces_s__rosidl_typesupport_c-7283d1619800cf07d59b.json",
+					"name" : "motion_capture_tracking_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c-30596e6455ed0cb06ae4.json",
+					"name" : "motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c-75221622a288a4834000.json",
+					"name" : "motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_capture_tracking_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_capture_tracking_interfaces_uninstall-71829a3a2af06f0997b6.json",
+					"name" : "motion_capture_tracking_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8f38545f1d70502065e4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces",
+		"source" : "/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

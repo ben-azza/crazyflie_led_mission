@@ -1,0 +1,25 @@
+[0.024s] Invoking command in '/home/mouha/crazyflie/ros2_ws/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mouha/crazyflie/ros2_ws/build/crazyflie_interfaces -- -j12 -l12
+[0.087s] [  0%] Built target crazyflie_interfaces__rs
+[0.087s] [  1%] Built target crazyflie_interfaces__rosidl_generator_type_description
+[0.095s] [  1%] Built target ament_cmake_python_symlink_crazyflie_interfaces
+[0.131s] [  1%] Built target crazyflie_interfaces__cpp
+[0.133s] [ 29%] Built target crazyflie_interfaces__rosidl_generator_c
+[0.175s] [ 39%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_c
+[0.178s] [ 49%] Built target crazyflie_interfaces__rosidl_typesupport_cpp
+[0.178s] [ 58%] Built target crazyflie_interfaces__rosidl_typesupport_c
+[0.186s] [ 88%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_cpp
+[0.186s] [ 88%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.186s] [ 88%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_c
+[0.207s] [ 88%] Built target crazyflie_interfaces
+[0.228s] [ 88%] Built target crazyflie_interfaces__py
+[0.260s] [ 97%] Built target crazyflie_interfaces__rosidl_generator_py
+[0.289s] [ 99%] Built target crazyflie_interfaces_s__rosidl_typesupport_introspection_c
+[0.289s] [ 99%] Built target crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.291s] [100%] Built target crazyflie_interfaces_s__rosidl_typesupport_c
+[0.358s] running egg_info
+[0.377s] writing crazyflie_interfaces.egg-info/PKG-INFO
+[0.377s] writing dependency_links to crazyflie_interfaces.egg-info/dependency_links.txt
+[0.377s] writing top-level names to crazyflie_interfaces.egg-info/top_level.txt
+[0.432s] reading manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+[0.433s] writing manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+[0.465s] [100%] Built target ament_cmake_python_build_crazyflie_interfaces_egg

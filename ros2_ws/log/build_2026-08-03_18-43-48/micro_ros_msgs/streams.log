@@ -1,0 +1,9 @@
+[0.019s] Invoking command in '/home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs -- -j12 -l12
+[0.065s] failed to create symbolic link '/home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs/ament_cmake_python/micro_ros_msgs/micro_ros_msgs' because existing path cannot be removed: Is a directory
+[0.065s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs] Error 1
+[0.067s] gmake[1]: *** [CMakeFiles/Makefile2:471: CMakeFiles/ament_cmake_python_symlink_micro_ros_msgs.dir/all] Error 2
+[0.067s] gmake[1]: *** Waiting for unfinished jobs....
+[0.070s] [  1%] Built target micro_ros_msgs__rosidl_generator_type_description
+[0.070s] [  3%] Built target micro_ros_msgs__rs
+[0.070s] gmake: *** [Makefile:146: all] Error 2
+[0.073s] Invoked command in '/home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs -- -j12 -l12

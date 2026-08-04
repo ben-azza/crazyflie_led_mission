@@ -1,0 +1,113 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install",
+			"ament_cmake_symlink_install_targets"
+		],
+		"files" : 
+		[
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"deps/libmotioncapture/deps/qualisys_cpp_sdk/CMakeLists.txt",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 50,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/qualisys_cpp_sdk",
+			"exportName" : "qualisys_cpp_sdkTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "qualisys_cpp_sdk::@5a99e0bc11ee08158fb6",
+					"index" : 37
+				}
+			],
+			"paths" : 
+			[
+				"deps/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/Export/af719d244ac5b38cbbce45228df7418b/qualisys_cpp_sdkTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/libmotioncapture/deps/qualisys_cpp_sdk/libqualisys_cpp_sdk.a"
+			],
+			"targetId" : "qualisys_cpp_sdk::@5a99e0bc11ee08158fb6",
+			"targetIndex" : 37,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "deps/libmotioncapture/deps/qualisys_cpp_sdk",
+		"source" : "deps/libmotioncapture/deps/qualisys_cpp_sdk"
+	}
+}

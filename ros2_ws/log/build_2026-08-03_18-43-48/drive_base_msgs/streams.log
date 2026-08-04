@@ -1,0 +1,25 @@
+[0.018s] Invoking command in '/home/mouha/crazyflie/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mouha/crazyflie/ros2_ws/build/drive_base_msgs -- -j12 -l12
+[0.064s] [  1%] Built target drive_base_msgs__rosidl_generator_type_description
+[0.067s] [  3%] Built target drive_base_msgs__rs
+[0.070s] [  3%] Built target ament_cmake_python_symlink_drive_base_msgs
+[0.083s] [  4%] Built target drive_base_msgs__cpp
+[0.117s] [ 26%] Built target drive_base_msgs__rosidl_generator_c
+[0.120s] [ 44%] Built target drive_base_msgs__rosidl_typesupport_introspection_c
+[0.120s] [ 44%] Built target drive_base_msgs__rosidl_typesupport_c
+[0.121s] [ 60%] Built target drive_base_msgs__rosidl_typesupport_cpp
+[0.122s] [ 63%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp
+[0.125s] [ 81%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp
+[0.125s] [ 81%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c
+[0.153s] [ 81%] Built target drive_base_msgs
+[0.180s] [ 83%] Built target drive_base_msgs__py
+[0.206s] [ 90%] Built target drive_base_msgs__rosidl_generator_py
+[0.229s] [ 93%] Built target drive_base_msgs_s__rosidl_typesupport_fastrtps_c
+[0.229s] [ 96%] Built target drive_base_msgs_s__rosidl_typesupport_introspection_c
+[0.233s] [100%] Built target drive_base_msgs_s__rosidl_typesupport_c
+[0.336s] running egg_info
+[0.360s] writing drive_base_msgs.egg-info/PKG-INFO
+[0.360s] writing dependency_links to drive_base_msgs.egg-info/dependency_links.txt
+[0.360s] writing top-level names to drive_base_msgs.egg-info/top_level.txt
+[0.414s] reading manifest file 'drive_base_msgs.egg-info/SOURCES.txt'
+[0.415s] writing manifest file 'drive_base_msgs.egg-info/SOURCES.txt'
+[0.451s] [100%] Built target ament_cmake_python_build_drive_base_msgs_egg

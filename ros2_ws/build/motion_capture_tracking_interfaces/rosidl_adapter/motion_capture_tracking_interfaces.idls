@@ -1,0 +1,4 @@
+/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces:msg/LatencyInfo.idl
+/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces:msg/NamedPose.idl
+/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces:msg/NamedPoseArray.idl
+/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces:msg/NamedPoseArrayV2.idl

@@ -1,0 +1,6 @@
+robots:
+  cf1:
+    enabled: true
+    uri: radio://0/80/2M/E7E7E7E7E7
+    initial_position: [0, 0, 0]
+    type: cf21  # ou cf2 selon la version firmware

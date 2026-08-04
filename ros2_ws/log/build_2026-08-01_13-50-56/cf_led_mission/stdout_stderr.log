@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating cf_led_mission.egg-info
+writing cf_led_mission.egg-info/PKG-INFO
+writing dependency_links to cf_led_mission.egg-info/dependency_links.txt
+writing entry points to cf_led_mission.egg-info/entry_points.txt
+writing requirements to cf_led_mission.egg-info/requires.txt
+writing top-level names to cf_led_mission.egg-info/top_level.txt
+writing manifest file 'cf_led_mission.egg-info/SOURCES.txt'
+reading manifest file 'cf_led_mission.egg-info/SOURCES.txt'
+writing manifest file 'cf_led_mission.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mouha/crazyflie/ros2_ws/install/cf_led_mission/lib/python3.12/site-packages/cf-led-mission.egg-link (link to .)
+Installing mission_node script to /home/mouha/crazyflie/ros2_ws/install/cf_led_mission/lib/cf_led_mission
+
+Installed /home/mouha/crazyflie/ros2_ws/build/cf_led_mission
+running symlink_data
+creating /home/mouha/crazyflie/ros2_ws/install/cf_led_mission/share/ament_index
+creating /home/mouha/crazyflie/ros2_ws/install/cf_led_mission/share/ament_index/resource_index
+creating /home/mouha/crazyflie/ros2_ws/install/cf_led_mission/share/ament_index/resource_index/packages
+symbolically linking /home/mouha/crazyflie/ros2_ws/build/cf_led_mission/resource/cf_led_mission -> /home/mouha/crazyflie/ros2_ws/install/cf_led_mission/share/ament_index/resource_index/packages
+symbolically linking /home/mouha/crazyflie/ros2_ws/build/cf_led_mission/package.xml -> /home/mouha/crazyflie/ros2_ws/install/cf_led_mission/share/cf_led_mission

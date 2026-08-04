@@ -1,0 +1,596 @@
+[0.193s] Invoking command in '/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking': AMENT_PREFIX_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces:/home/mouha/crazyflie/ros2_ws/install/micro_ros_setup:/home/mouha/crazyflie/ros2_ws/install/micro_ros_agent:/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs:/home/mouha/crazyflie/ros2_ws/install/drive_base_msgs:/home/mouha/crazyflie/ros2_ws/install/crazyflie_sim:/home/mouha/crazyflie/ros2_ws/install/crazyflie_examples:/home/mouha/crazyflie/ros2_ws/install/crazyflie:/home/mouha/crazyflie/ros2_ws/install/crazyflie_interfaces:/home/mouha/crazyflie/ros2_ws/install/crazyflie_description:/home/mouha/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking
+[0.237s] -- The C compiler identification is GNU 13.3.0
+[0.281s] -- The CXX compiler identification is GNU 13.3.0
+[0.292s] -- Detecting C compiler ABI info
+[0.353s] -- Detecting C compiler ABI info - done
+[0.360s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.360s] -- Detecting C compile features
+[0.360s] -- Detecting C compile features - done
+[0.367s] -- Detecting CXX compiler ABI info
+[0.440s] -- Detecting CXX compiler ABI info - done
+[0.447s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.447s] -- Detecting CXX compile features
+[0.447s] -- Detecting CXX compile features - done
+[0.451s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.572s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.632s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.675s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.715s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.729s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.744s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.762s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.839s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.843s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.913s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.930s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.950s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.026s] -- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.185s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.206s] -- Found motion_capture_tracking_interfaces: 1.0.9 (/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake)
+[1.230s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.238s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.277s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[1.278s] -- looking for PCL_COMMON
+[1.278s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.279s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization  
+[1.283s] [33mCMake Warning (dev) at deps/librigidbodytracker/CMakeLists.txt:7 (find_package):
+[1.283s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[1.283s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[1.283s]   command to set the policy and suppress this warning.
+[1.284s] 
+[1.284s]   CMake variable PCL_ROOT is set to:
+[1.284s] 
+[1.284s]     /usr
+[1.284s] 
+[1.284s]   For compatibility, CMake is ignoring the variable.
+[1.284s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.284s] [0m
+[1.288s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.288s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.288s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.289s]   cmake_policy command to set the policy and suppress this warning.
+[1.289s] 
+[1.289s]   CMake variable FLANN_ROOT is set to:
+[1.289s] 
+[1.289s]     /usr
+[1.289s] 
+[1.289s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.289s]   .cmake module might still use it.
+[1.289s] Call Stack (most recent call first):
+[1.289s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.289s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.289s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.289s]   deps/librigidbodytracker/CMakeLists.txt:7 (find_package)
+[1.289s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.289s] [0m
+[1.290s] -- Found flann version 1.9.2
+[1.502s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.503s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[1.531s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.593s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.594s] -- Found Threads: TRUE  
+[1.597s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.605s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.737s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.737s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.740s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.753s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[1.774s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[1.789s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.908s] -- Found X11: /usr/include   
+[1.909s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.974s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.974s] -- Looking for gethostbyname
+[2.037s] -- Looking for gethostbyname - found
+[2.037s] -- Looking for connect
+[2.104s] -- Looking for connect - found
+[2.105s] -- Looking for remove
+[2.168s] -- Looking for remove - found
+[2.168s] -- Looking for shmat
+[2.232s] -- Looking for shmat - found
+[2.232s] -- Looking for IceConnectionNumber in ICE
+[2.295s] -- Looking for IceConnectionNumber in ICE - found
+[2.402s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") 
+[2.404s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.406s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") 
+[2.408s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") 
+[2.419s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.435s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  
+[2.439s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") 
+[2.444s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.508s] -- Checking for module 'libusb-1.0'
+[2.520s] --   Found libusb-1.0, version 1.0.27
+[2.545s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.546s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.546s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.592s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.592s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.595s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.595s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.946s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.950s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.288s] -- Found Qhull version 8.0.2
+[3.621s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.962s] -- looking for PCL_KDTREE
+[3.963s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.963s] -- looking for PCL_OCTREE
+[3.964s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.964s] -- looking for PCL_SEARCH
+[3.964s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.965s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.965s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.965s] -- looking for PCL_FILTERS
+[3.966s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.966s] -- looking for PCL_2D
+[3.967s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[3.967s] -- looking for PCL_GEOMETRY
+[3.967s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[3.967s] -- looking for PCL_IO
+[3.968s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.968s] -- looking for PCL_FEATURES
+[3.969s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.970s] -- looking for PCL_ML
+[3.970s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.971s] -- looking for PCL_SEGMENTATION
+[3.971s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.972s] -- looking for PCL_VISUALIZATION
+[3.972s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.972s] -- looking for PCL_SURFACE
+[3.973s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.973s] -- looking for PCL_REGISTRATION
+[3.974s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.974s] -- looking for PCL_KEYPOINTS
+[3.975s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.975s] -- looking for PCL_TRACKING
+[3.976s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.976s] -- looking for PCL_RECOGNITION
+[3.977s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.977s] -- looking for PCL_STEREO
+[3.978s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.978s] -- looking for PCL_APPS
+[3.979s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.979s] -- looking for PCL_IN_HAND_SCANNER
+[3.979s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[3.980s] -- looking for PCL_MODELER
+[3.980s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[3.980s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.980s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[3.980s] -- looking for PCL_OUTOFCORE
+[3.981s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.981s] -- looking for PCL_PEOPLE
+[3.982s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.983s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[3.987s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[3.996s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.58") found components: program_options 
+[3.997s] -- Checking for module 'yaml-cpp'
+[4.011s] --   Found yaml-cpp, version 0.8.0
+[4.042s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+[4.043s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.043s] [0mincluding vicon[0m
+[4.058s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.5") found components: thread chrono 
+[4.061s] [0mincluding optitrack[0m
+[4.061s] [0mincluding qualisys[0m
+[4.065s] [0mincluding vrpn[0m
+[4.138s] -- Checking for module 'libusb-1.0'
+[4.150s] --   Found libusb-1.0, version 1.0.27
+[4.181s] -- Found Libusb1: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[5.284s] -- NOTE: You have VRPN_USE_LOCAL_HIDAPI enabled, but VRPN_USE_HID disabled: HIDAPI will only be built if you enable HID support for VRPN
+[5.329s] -- Looking for C++ include linux/joystick.h
+[5.400s] -- Looking for C++ include linux/joystick.h - found
+[5.401s] -- Looking for C++ include linux/input.h
+[5.471s] -- Looking for C++ include linux/input.h - found
+[5.498s] -- Found quatlib: quat  
+[5.506s] [0mincluding fzmotion[0m
+[5.576s] -- Configuring done (5.4s)
+[5.653s] -- Generating done (0.1s)
+[5.667s] -- Build files have been written to: /home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking
+[5.691s] Invoked command in '/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces:/home/mouha/crazyflie/ros2_ws/install/micro_ros_setup:/home/mouha/crazyflie/ros2_ws/install/micro_ros_agent:/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs:/home/mouha/crazyflie/ros2_ws/install/drive_base_msgs:/home/mouha/crazyflie/ros2_ws/install/crazyflie_sim:/home/mouha/crazyflie/ros2_ws/install/crazyflie_examples:/home/mouha/crazyflie/ros2_ws/install/crazyflie:/home/mouha/crazyflie/ros2_ws/install/crazyflie_interfaces:/home/mouha/crazyflie/ros2_ws/install/crazyflie_description:/home/mouha/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking
+[5.693s] Invoking command in '/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking': AMENT_PREFIX_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces:/home/mouha/crazyflie/ros2_ws/install/micro_ros_setup:/home/mouha/crazyflie/ros2_ws/install/micro_ros_agent:/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs:/home/mouha/crazyflie/ros2_ws/install/drive_base_msgs:/home/mouha/crazyflie/ros2_ws/install/crazyflie_sim:/home/mouha/crazyflie/ros2_ws/install/crazyflie_examples:/home/mouha/crazyflie/ros2_ws/install/crazyflie:/home/mouha/crazyflie/ros2_ws/install/crazyflie_interfaces:/home/mouha/crazyflie/ros2_ws/install/crazyflie_description:/home/mouha/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking -- -j12 -l12
+[5.738s] [  1%] [32mBuilding CXX object deps/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/Network.cpp.o[0m
+[5.740s] [  6%] [32mBuilding C object deps/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/vector.c.o[0m
+[5.741s] [  9%] [32mBuilding C object deps/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/matrix.c.o[0m
+[5.741s] [  9%] [32mBuilding CXX object deps/librigidbodytracker/CMakeFiles/librigidbodytracker.dir/src/rigid_body_tracker.cpp.o[0m
+[5.741s] [  6%] [32mBuilding C object deps/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/quat.c.o[0m
+[5.741s] [  9%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/CoreClientTimingLog.cpp.o[0m
+[5.741s] [ 11%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCoreUtils/ClientUtils.cpp.o[0m
+[5.741s] [ 12%] [32mBuilding CXX object deps/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/RTProtocol.cpp.o[0m
+[5.741s] [ 14%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/CoreClient.cpp.o[0m
+[5.741s] [ 16%] [32mBuilding CXX object deps/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/Markup.cpp.o[0m
+[5.745s] [ 19%] [32mBuilding CXX object deps/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/RTPacket.cpp.o[0m
+[5.745s] [ 19%] [32mBuilding C object deps/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/xyzquat.c.o[0m
+[5.783s] [ 20%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCoreUtils/AxisMapping.cpp.o[0m
+[5.796s] [ 24%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconCGStreamClientSDK/CGClient.cpp.o[0m
+[5.798s] [ 24%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/WirelessConfiguration.cpp.o[0m
+[5.856s] [ 25%] [32m[1mLinking C static library libquat.a[0m
+[5.934s] In file included from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/Markup.cpp:18[m[K:
+[5.937s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/Markup.h:[m[K In copy constructor ‘[01m[KCMarkup::ElemPos::[01;32m[KElemPos[m[K(const CMarkup::ElemPos&)[m[K’:
+[5.937s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/Markup.h:89:55:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr CMarkup::ElemPos& CMarkup::ElemPos::[01;32m[Koperator=[m[K(const CMarkup::ElemPos&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[5.937s]    89 |                 ElemPos(const ElemPos& pos) { *this = [01;35m[Kpos[m[K; };
+[5.937s]       |                                                       [01;35m[K^~~[m[K
+[5.937s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/Markup.h:89:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KCMarkup::ElemPos[m[K’ has user-provided ‘[01m[KCMarkup::ElemPos::[01;32m[KElemPos[m[K(const CMarkup::ElemPos&)[m[K’
+[5.937s]    89 |                 [01;36m[KElemPos[m[K(const ElemPos& pos) { *this = pos; };
+[5.937s]       |                 [01;36m[K^~~~~~~[m[K
+[5.945s] [ 25%] Built target quat
+[5.975s] [ 27%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Analog.C.o[0m
+[6.035s] [ 29%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconCGStreamClient/ViconCGStreamClient.cpp.o[0m
+[6.094s] [ 30%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Analog_Output.C.o[0m
+[6.115s] [ 32%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Assert.C.o[0m
+[6.142s] [ 33%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconCGStreamClient/CGStreamReaderWriter.cpp.o[0m
+[6.165s] [ 35%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Auxiliary_Logger.C.o[0m
+[6.210s] [ 37%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_BaseClass.C.o[0m
+[6.231s] In file included from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Connection.h:7[m[K,
+[6.231s]                  from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_BaseClass.h:22[m[K,
+[6.231s]                  from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Auxiliary_Logger.h:21[m[K,
+[6.232s]                  from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Auxiliary_Logger.C:4[m[K:
+[6.232s] /home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h: In instantiation of ‘[01m[Kvrpn_vector<T>::[01;32m[Kvrpn_vector[m[K() [35m[K[with T = char][m[K[m[K’:
+[6.232s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Auxiliary_Logger.C:64:23:[m[K   required from here
+[6.232s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:657:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvrpn_vector<char>::m_data[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.232s]   657 |   T* [01;35m[Km_data[m[K;
+[6.232s]       |      [01;35m[K^~~~~~[m[K
+[6.232s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:656:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kvrpn_vector<char>::size_type vrpn_vector<char>::m_allocated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.232s]   656 |   size_type m_size, [01;35m[Km_allocated[m[K;
+[6.232s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[6.232s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:557:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.232s]   557 |   [01;35m[Kvrpn_vector[m[K() : m_size(0), m_data(0), m_allocated(0) {};
+[6.233s]       |   [01;35m[K^~~~~~~~~~~[m[K
+[6.258s] [ 38%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Button.C.o[0m
+[6.278s] In file included from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp:17[m[K:
+[6.278s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/Markup.h:[m[K In copy constructor ‘[01m[KCMarkup::ElemPos::[01;32m[KElemPos[m[K(const CMarkup::ElemPos&)[m[K’:
+[6.278s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/Markup.h:89:55:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr CMarkup::ElemPos& CMarkup::ElemPos::[01;32m[Koperator=[m[K(const CMarkup::ElemPos&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[6.278s]    89 |                 ElemPos(const ElemPos& pos) { *this = [01;35m[Kpos[m[K; };
+[6.278s]       |                                                       [01;35m[K^~~[m[K
+[6.279s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/Markup.h:89:17:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KCMarkup::ElemPos[m[K’ has user-provided ‘[01m[KCMarkup::ElemPos::[01;32m[KElemPos[m[K(const CMarkup::ElemPos&)[m[K’
+[6.279s]    89 |                 [01;36m[KElemPos[m[K(const ElemPos& pos) { *this = pos; };
+[6.279s]       |                 [01;36m[K^~~~~~~[m[K
+[6.328s] [ 40%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconCGStreamClient/ViconCGStreamBayer.cpp.o[0m
+[6.335s] [ 41%] [32mBuilding CXX object deps/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP/DataStreamClient.cpp.o[0m
+[6.348s] [ 43%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Connection.C.o[0m
+[6.380s] [ 45%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Dial.C.o[0m
+[6.476s] [ 46%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_EndpointContainer.C.o[0m
+[6.556s] [ 48%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FileConnection.C.o[0m
+[6.668s] In file included from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Connection.h:7[m[K,
+[6.668s]                  from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Connection.C:26[m[K:
+[6.672s] /home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h: In instantiation of ‘[01m[Kvrpn_vector<T>::[01;32m[Kvrpn_vector[m[K() [35m[K[with T = char][m[K[m[K’:
+[6.672s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Connection.C:850:23:[m[K   required from here
+[6.672s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:657:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvrpn_vector<char>::m_data[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.672s]   657 |   T* [01;35m[Km_data[m[K;
+[6.672s]       |      [01;35m[K^~~~~~[m[K
+[6.672s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:656:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kvrpn_vector<char>::size_type vrpn_vector<char>::m_allocated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.672s]   656 |   size_type m_size, [01;35m[Km_allocated[m[K;
+[6.673s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[6.673s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:557:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.673s]   557 |   [01;35m[Kvrpn_vector[m[K() : m_size(0), m_data(0), m_allocated(0) {};
+[6.673s]       |   [01;35m[K^~~~~~~~~~~[m[K
+[6.722s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_EndpointContainer.C:[m[K In member function ‘[01m[Kvoid vrpn::EndpointContainer::[01;32m[Kcompact_[m[K()[m[K’:
+[6.722s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_EndpointContainer.C:91:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbefore[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.722s]    91 |         size_type [01;35m[Kbefore[m[K = get_full_container_size();
+[6.722s]       |                   [01;35m[K^~~~~~[m[K
+[6.724s] In file included from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_EndpointContainer.h:23[m[K,
+[6.727s]                  from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_EndpointContainer.C:17[m[K:
+[6.727s] /home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h: In instantiation of ‘[01m[Kvrpn_vector<T>::[01;32m[Kvrpn_vector[m[K() [35m[K[with T = vrpn_Endpoint_IP*][m[K[m[K’:
+[6.727s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_EndpointContainer.C:67:30:[m[K   required from here
+[6.727s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:657:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvrpn_vector<vrpn_Endpoint_IP*>::m_data[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.727s]   657 |   T* [01;35m[Km_data[m[K;
+[6.727s]       |      [01;35m[K^~~~~~[m[K
+[6.727s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:656:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kvrpn_vector<vrpn_Endpoint_IP*>::size_type vrpn_vector<vrpn_Endpoint_IP*>::m_allocated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.727s]   656 |   size_type m_size, [01;35m[Km_allocated[m[K;
+[6.727s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[6.727s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:557:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.728s]   557 |   [01;35m[Kvrpn_vector[m[K() : m_size(0), m_data(0), m_allocated(0) {};
+[6.728s]       |   [01;35m[K^~~~~~~~~~~[m[K
+[6.797s] [ 50%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FileController.C.o[0m
+[6.819s] [ 51%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_ForceDevice.C.o[0m
+[6.959s] [ 53%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Forwarder.C.o[0m
+[7.120s] [ 54%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_ForwarderController.C.o[0m
+[7.157s] [ 56%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FunctionGenerator.C.o[0m
+[7.190s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp:[m[K In member function ‘[01m[Kbool CRTProtocol::[01;32m[KGetCapture[m[K(const char*, bool)[m[K’:
+[7.190s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp:651:66:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive writing up to 1023 bytes into a region of size 1004 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-overflow=-Wformat-overflow=]8;;[m[K]
+[7.191s]   651 |                         sprintf(maErrorStr, "No packet received. [01;35m[K%s[m[K.", maErrorStr);
+[7.191s]       |                                                                  [01;35m[K^~[m[K
+[7.191s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp:651:32:[m[K [01;36m[Knote: [m[K‘[01m[Ksprintf[m[K’ output between 22 and 1045 bytes into a destination of size 1024
+[7.191s]   651 |                         [01;36m[Ksprintf(maErrorStr, "No packet received. %s.", maErrorStr)[m[K;
+[7.191s]       |                         [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.191s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp:651:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksprintf[m[K’ argument 3 overlaps destination object ‘[01m[Kthis[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wrestrict-Wrestrict]8;;[m[K]
+[7.192s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp:580:62:[m[K [01;36m[Knote: [m[Kdestination object referenced by ‘[01m[Krestrict[m[K’-qualified argument 1 was declared here
+[7.192s]   580 | bool CRTProtocol::GetCapture(const char* pFileName, bool bC3D[01;36m[K)[m[K
+[7.192s]       |                                                              [01;36m[K^[m[K
+[7.225s] [ 58%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Imager.C.o[0m
+[7.391s] [ 59%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_LamportClock.C.o[0m
+[7.452s] [ 61%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Mutex.C.o[0m
+[7.566s] [ 62%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Poser.C.o[0m
+[7.579s] [ 64%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_RedundantTransmission.C.o[0m
+[7.670s] [ 66%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Serial.C.o[0m
+[7.720s] [ 67%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_SerialPort.C.o[0m
+[7.766s] [ 69%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Shared.C.o[0m
+[7.828s] [ 70%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_SharedObject.C.o[0m
+[7.875s] In file included from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.C:12[m[K:
+[7.875s] /home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h: In instantiation of ‘[01m[Kvrpn_vector<T>::[01;32m[Kvrpn_vector[m[K() [35m[K[with T = int][m[K[m[K’:
+[7.875s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.C:1141:22:[m[K   required from here
+[7.875s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:657:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvrpn_vector<int>::m_data[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.875s]   657 |   T* [01;35m[Km_data[m[K;
+[7.876s]       |      [01;35m[K^~~~~~[m[K
+[7.876s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:656:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kvrpn_vector<int>::size_type vrpn_vector<int>::m_allocated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.876s]   656 |   size_type m_size, [01;35m[Km_allocated[m[K;
+[7.876s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[7.876s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:557:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.876s]   557 |   [01;35m[Kvrpn_vector[m[K() : m_size(0), m_data(0), m_allocated(0) {};
+[7.876s]       |   [01;35m[K^~~~~~~~~~~[m[K
+[7.876s] /home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h: In instantiation of ‘[01m[Kvrpn_vector<T>::[01;32m[Kvrpn_vector[m[K(size_type) [35m[K[with T = unsigned int; size_type = long unsigned int][m[K[m[K’:
+[7.876s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.C:1152:38:[m[K   required from here
+[7.876s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:657:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvrpn_vector<unsigned int>::m_data[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.877s]   657 |   T* [01;35m[Km_data[m[K;
+[7.877s]       |      [01;35m[K^~~~~~[m[K
+[7.877s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:656:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kvrpn_vector<unsigned int>::size_type vrpn_vector<unsigned int>::m_allocated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.877s]   656 |   size_type m_size, [01;35m[Km_allocated[m[K;
+[7.877s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[7.877s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:558:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.877s]   558 |   [01;35m[Kvrpn_vector[m[K(size_type s) : m_size(0), m_data(0), m_allocated(0) {
+[7.877s]       |   [01;35m[K^~~~~~~~~~~[m[K
+[7.877s] /home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h: In instantiation of ‘[01m[Kvrpn_vector<T>::[01;32m[Kvrpn_vector[m[K(const vrpn_vector<T>&) [35m[K[with T = unsigned int][m[K[m[K’:
+[7.877s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.C:1160:35:[m[K   required from here
+[7.877s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:657:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvrpn_vector<unsigned int>::m_data[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.878s]   657 |   T* [01;35m[Km_data[m[K;
+[7.878s]       |      [01;35m[K^~~~~~[m[K
+[7.878s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:656:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kvrpn_vector<unsigned int>::size_type vrpn_vector<unsigned int>::m_allocated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.878s]   656 |   size_type m_size, [01;35m[Km_allocated[m[K;
+[7.878s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[7.878s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:562:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.878s]   562 |   [01;35m[Kvrpn_vector[m[K( const vrpn_vector &from )
+[7.878s]       |   [01;35m[K^~~~~~~~~~~[m[K
+[7.878s] /home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h: In instantiation of ‘[01m[Kvrpn_vector<T>::[01;32m[Kvrpn_vector[m[K(InputIt, InputIt) [35m[K[with InputIt = unsigned int*; T = unsigned int][m[K[m[K’:
+[7.884s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.C:1180:62:[m[K   required from here
+[7.884s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:657:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvrpn_vector<unsigned int>::m_data[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.884s]   657 |   T* [01;35m[Km_data[m[K;
+[7.884s]       |      [01;35m[K^~~~~~[m[K
+[7.884s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:656:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kvrpn_vector<unsigned int>::size_type vrpn_vector<unsigned int>::m_allocated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.884s]   656 |   size_type m_size, [01;35m[Km_allocated[m[K;
+[7.884s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[7.885s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:570:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.885s]   570 |   [01;35m[Kvrpn_vector[m[K( InputIt first, InputIt last ) : m_size(0), m_data(0), m_allocated(0) {
+[7.885s]       |   [01;35m[K^~~~~~~~~~~[m[K
+[7.885s] /home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h: In instantiation of ‘[01m[Kvrpn_vector<T>::[01;32m[Kvrpn_vector[m[K() [35m[K[with T = unsigned int][m[K[m[K’:
+[7.885s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.C:1195:30:[m[K   required from here
+[7.885s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:657:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvrpn_vector<unsigned int>::m_data[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.885s]   657 |   T* [01;35m[Km_data[m[K;
+[7.885s]       |      [01;35m[K^~~~~~[m[K
+[7.885s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:656:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kvrpn_vector<unsigned int>::size_type vrpn_vector<unsigned int>::m_allocated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.885s]   656 |   size_type m_size, [01;35m[Km_allocated[m[K;
+[7.886s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[7.886s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:557:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.886s]   557 |   [01;35m[Kvrpn_vector[m[K() : m_size(0), m_data(0), m_allocated(0) {};
+[7.886s]       |   [01;35m[K^~~~~~~~~~~[m[K
+[7.941s] In file included from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_SerialPort.C:32[m[K:
+[7.941s] /home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h: In instantiation of ‘[01m[Kvrpn_vector<T>::[01;32m[Kvrpn_vector[m[K(InputIt, InputIt) [35m[K[with InputIt = const char*; T = unsigned char][m[K[m[K’:
+[7.941s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_SerialPort.C:89:77:[m[K   required from here
+[7.941s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:657:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvrpn_vector<unsigned char>::m_data[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.941s]   657 |   T* [01;35m[Km_data[m[K;
+[7.941s]       |      [01;35m[K^~~~~~[m[K
+[7.941s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:656:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kvrpn_vector<unsigned char>::size_type vrpn_vector<unsigned char>::m_allocated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.941s]   656 |   size_type m_size, [01;35m[Km_allocated[m[K;
+[7.942s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[7.942s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:570:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.942s]   570 |   [01;35m[Kvrpn_vector[m[K( InputIt first, InputIt last ) : m_size(0), m_data(0), m_allocated(0) {
+[7.942s]       |   [01;35m[K^~~~~~~~~~~[m[K
+[7.945s] /home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h: In instantiation of ‘[01m[Kvrpn_vector<T>::[01;32m[Kvrpn_vector[m[K(size_type) [35m[K[with T = unsigned char; size_type = long unsigned int][m[K[m[K’:
+[7.945s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_SerialPort.C:156:36:[m[K   required from here
+[7.945s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:657:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvrpn_vector<unsigned char>::m_data[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.945s]   657 |   T* [01;35m[Km_data[m[K;
+[7.945s]       |      [01;35m[K^~~~~~[m[K
+[7.945s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:656:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kvrpn_vector<unsigned char>::size_type vrpn_vector<unsigned char>::m_allocated[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.945s]   656 |   size_type m_size, [01;35m[Km_allocated[m[K;
+[7.946s]       |                     [01;35m[K^~~~~~~~~~~[m[K
+[7.946s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn/vrpn_Shared.h:558:3:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[7.946s]   558 |   [01;35m[Kvrpn_vector[m[K(size_type s) : m_size(0), m_data(0), m_allocated(0) {
+[7.946s]       |   [01;35m[K^~~~~~~~~~~[m[K
+[8.010s] [ 72%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Sound.C.o[0m
+[8.045s] [ 74%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Text.C.o[0m
+[8.053s] [ 75%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Thread.C.o[0m
+[8.140s] [ 77%] [32mBuilding CXX object deps/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Tracker.C.o[0m
+[8.407s] [ 79%] [32m[1mLinking CXX static library libvrpn.a[0m
+[8.500s] [ 79%] Built target vrpn
+[9.052s] [ 80%] [32m[1mLinking CXX static library libqualisys_cpp_sdk.a[0m
+[9.126s] [ 80%] Built target qualisys_cpp_sdk
+[11.599s] In file included from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:14[m[K:
+[11.599s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/cbs_group_constraint.hpp:[m[K In function ‘[01m[Kvoid[01;32m[K createConstraintsFromConflict[m[K(const std::map<std::__cxx11::basic_string<char>, std::set<std::__cxx11::basic_string<char> > >&, const std::string&, std::set<std::set<Constraint> >&)[m[K’:
+[11.599s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/cbs_group_constraint.hpp:148:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[11.599s]   148 |   int [01;35m[Kcount[m[K = 0;
+[11.599s]       |       [01;35m[K^~~~~[m[K
+[11.707s] In file included from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:1[m[K:
+[11.707s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/include/librigidbodytracker/rigid_body_tracker.h:[m[K In constructor ‘[01m[Klibrigidbodytracker::RigidBodyTracker::[01;32m[KRigidBodyTracker[m[K(const std::vector<librigidbodytracker::DynamicsConfiguration>&, const std::vector<std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> > >&, const std::vector<librigidbodytracker::RigidBody>&)[m[K’:
+[11.707s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/include/librigidbodytracker/rigid_body_tracker.h:126:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Klibrigidbodytracker::RigidBodyTracker::m_trackingMode[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[11.707s]   126 |     TrackingMode [01;35m[Km_trackingMode[m[K;
+[11.707s]       |                  [01;35m[K^~~~~~~~~~~~~~[m[K
+[11.708s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/include/librigidbodytracker/rigid_body_tracker.h:123:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool librigidbodytracker::RigidBodyTracker::m_initialized[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[11.708s]   123 |     bool [01;35m[Km_initialized[m[K;
+[11.708s]       |          [01;35m[K^~~~~~~~~~~~~[m[K
+[11.708s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:77:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[11.708s]    77 | [01;35m[KRigidBodyTracker[m[K::RigidBodyTracker(
+[11.708s]       | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[11.712s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:[m[K In member function ‘[01m[Kbool librigidbodytracker::RigidBodyTracker::[01;32m[KinitializePose[m[K(pcl::PointCloud<pcl::PointXYZ>::ConstPtr)[m[K’:
+[11.712s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:167:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.712s]   167 |   for (int i = 0; [01;35m[Ki < numRigidBodies[m[K; ++i) {
+[11.712s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[11.712s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:169:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.712s]   169 |     for (int j = i + 1; [01;35m[Kj < numRigidBodies[m[K; ++j) {
+[11.712s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[11.718s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:180:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.718s]   180 |   for (int iRb = 0; [01;35m[KiRb < numRigidBodies[m[K; ++iRb) {
+[11.719s]       |                     [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+[11.719s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:195:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.719s]   195 |     if ([01;35m[KnFound < rbNpts[m[K) {
+[11.719s]       |         [01;35m[K~~~~~~~^~~~~~~~[m[K
+[11.719s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:208:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.719s]   208 |     for (int i = 0; [01;35m[Ki < rbNpts[m[K; ++i) {
+[11.719s]       |                     [01;35m[K~~^~~~~~~~[m[K
+[11.857s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:[m[K In member function ‘[01m[Kbool librigidbodytracker::RigidBodyTracker::[01;32m[KinitializePosition[m[K(std::chrono::_V2::system_clock::time_point, pcl::PointCloud<pcl::PointXYZ>::ConstPtr)[m[K’:
+[11.857s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:426:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtotalCost[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[11.857s]   426 |   long [01;35m[KtotalCost[m[K = assignment.solve(solution);
+[11.858s]       |        [01;35m[K^~~~~~~~~[m[K
+[11.859s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:[m[K In member function ‘[01m[Kvoid librigidbodytracker::RigidBodyTracker::[01;32m[KupdatePosition[m[K(std::chrono::_V2::system_clock::time_point, pcl::PointCloud<pcl::PointXYZ>::ConstPtr)[m[K’:
+[11.859s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:481:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.859s]   481 |   for (int iRb = 0; [01;35m[KiRb < numRigidBodies[m[K; ++iRb) {
+[11.859s]       |                     [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+[11.875s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:537:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtotalCost[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[11.875s]   537 |   long [01;35m[KtotalCost[m[K = assignment.solve(solution);
+[11.875s]       |        [01;35m[K^~~~~~~~~[m[K
+[11.875s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:[m[K In member function ‘[01m[Kbool librigidbodytracker::RigidBodyTracker::[01;32m[KinitializeHybrid[m[K(std::chrono::_V2::system_clock::time_point, pcl::PointCloud<pcl::PointXYZ>::ConstPtr)[m[K’:
+[11.875s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:582:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.876s]   582 |   for (int i = 0; [01;35m[Ki < numRigidBodies[m[K; ++i) {
+[11.876s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[11.876s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:584:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.876s]   584 |     for (int j = i + 1; [01;35m[Kj < numRigidBodies[m[K; ++j) {
+[11.876s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[11.876s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:595:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.876s]   595 |   for (int iRb = 0; [01;35m[KiRb < numRigidBodies[m[K; ++iRb) {
+[11.876s]       |                     [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+[11.876s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:610:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.877s]   610 |     if ([01;35m[KnFound < rbNpts[m[K) {
+[11.877s]       |         [01;35m[K~~~~~~~^~~~~~~~[m[K
+[11.877s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:623:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[11.877s]   623 |       float [01;35m[Kdist[m[K = (pi - marker).norm();
+[11.877s]       |             [01;35m[K^~~~[m[K
+[11.877s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:644:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.877s]   644 |     for (int i = 0; [01;35m[Ki < rbNpts[m[K; ++i) {
+[11.877s]       |                     [01;35m[K~~^~~~~~~~[m[K
+[11.885s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:[m[K In member function ‘[01m[Kvoid librigidbodytracker::RigidBodyTracker::[01;32m[KupdateHybrid[m[K(std::chrono::_V2::system_clock::time_point, pcl::PointCloud<pcl::PointXYZ>::ConstPtr)[m[K’:
+[11.886s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:756:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.886s]   756 |   for (int iRb = 0; [01;35m[KiRb < numRigidBodies[m[K; ++iRb) {
+[11.886s]       |                     [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+[11.887s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:830:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.887s]   830 |     for (size_t i = 0; [01;35m[Ki < k[m[K; ++i)  {
+[11.888s]       |                        [01;35m[K~~^~~[m[K
+[11.907s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:1038:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.907s]  1038 |     for (int iRb = 0; [01;35m[KiRb < numRigidBodies[m[K; ++iRb) {
+[11.907s]       |                       [01;35m[K~~~~^~~~~~~~~~~~~~~~[m[K
+[11.908s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:943:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KoutputToFile[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[11.908s]   943 |   bool [01;35m[KoutputToFile[m[K = false;
+[11.908s]       |        [01;35m[K^~~~~~~~~~~~[m[K
+[11.908s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:948:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Km_lowLevelExpanded[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[11.908s]   948 |   int [01;35m[Km_lowLevelExpanded[m[K = 0;
+[11.908s]       |       [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[11.908s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/librigidbodytracker/src/rigid_body_tracker.cpp:949:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kduplicate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[11.908s]   949 |   int [01;35m[Kduplicate[m[K = 0;
+[11.908s]       |       [01;35m[K^~~~~~~~~[m[K
+[14.800s] [ 82%] [32m[1mLinking CXX static library libViconDataStreamSDK_CPP.a[0m
+[14.994s] [ 82%] Built target ViconDataStreamSDK_CPP
+[15.010s] [ 85%] [32mBuilding CXX object deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/qualisys.cpp.o[0m
+[15.011s] [ 85%] [32mBuilding CXX object deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/vicon.cpp.o[0m
+[15.011s] [ 87%] [32mBuilding CXX object deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/optitrack.cpp.o[0m
+[15.012s] [ 90%] [32mBuilding CXX object deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/mock.cpp.o[0m
+[15.012s] [ 90%] [32mBuilding CXX object deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/motioncapture.cpp.o[0m
+[15.013s] [ 93%] [32mBuilding CXX object deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/fzmotion.cpp.o[0m
+[15.013s] [ 93%] [32mBuilding CXX object deps/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/vrpn.cpp.o[0m
+[16.081s] [ 95%] [32m[1mLinking CXX static library liblibrigidbodytracker.a[0m
+[16.191s] [ 95%] Built target librigidbodytracker
+[17.050s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/src/optitrack.cpp:[m[K In member function ‘[01m[Kvirtual void libmotioncapture::MotionCaptureOptitrack::[01;32m[KwaitForNextFrame[m[K()[m[K’:
+[17.050s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/src/optitrack.cpp:730:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbTrackedModelsChanged[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[17.050s]   730 |         bool [01;35m[KbTrackedModelsChanged[m[K = (params & 0x02) != 0;         // 0x02 Actively tracked model list has changed
+[17.050s]       |              [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[17.098s] In file included from [01m[K/usr/include/boost/system/detail/requires_cxx11.hpp:9[m[K,
+[17.098s]                  from [01m[K/usr/include/boost/system/detail/config.hpp:11[m[K,
+[17.098s]                  from [01m[K/usr/include/boost/system/detail/error_category.hpp:13[m[K,
+[17.098s]                  from [01m[K/usr/include/boost/system/detail/error_code.hpp:14[m[K,
+[17.098s]                  from [01m[K/usr/include/boost/system/error_code.hpp:13[m[K,
+[17.098s]                  from [01m[K/usr/include/boost/asio/detail/throw_error.hpp:20[m[K,
+[17.098s]                  from [01m[K/usr/include/boost/asio/detail/impl/posix_event.ipp:23[m[K,
+[17.098s]                  from [01m[K/usr/include/boost/asio/detail/posix_event.hpp:172[m[K,
+[17.098s]                  from [01m[K/usr/include/boost/asio/detail/event.hpp:25[m[K,
+[17.098s]                  from [01m[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19[m[K,
+[17.098s]                  from [01m[K/usr/include/boost/asio/execution.hpp:22[m[K,
+[17.098s]                  from [01m[K/usr/include/boost/asio/any_completion_executor.hpp:22[m[K,
+[17.098s]                  from [01m[K/usr/include/boost/asio.hpp:20[m[K,
+[17.098s]                  from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/include/libmotioncapture/fzmotion.h:7[m[K,
+[17.098s]                  from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/src/fzmotion.cpp:1[m[K:
+[17.098s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[17.098s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[17.099s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.110s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/include/libmotioncapture/fzmotion.h:133:32:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[17.110s]   133 |                         struct [01;35m[K{[m[K uint8 v1; uint8 v2; uint8 v3; uint8 v4; };
+[17.110s]       |                                [01;35m[K^[m[K
+[17.110s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/include/libmotioncapture/fzmotion.h:138:32:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[17.110s]   138 |                         struct [01;35m[K{[m[K uint8 v1; uint8 v2; uint8 v3; uint8 v4; };
+[17.110s]       |                                [01;35m[K^[m[K
+[17.110s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/include/libmotioncapture/fzmotion.h:145:32:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[17.110s]   145 |                         struct [01;35m[K{[m[K octet h1; octet h2; octet l1; octet l2; };
+[17.110s]       |                                [01;35m[K^[m[K
+[17.120s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/include/libmotioncapture/fzmotion.h:[m[K In constructor ‘[01m[Klibmotioncapture::MotionCaptureFZMotion::[01;32m[KMotionCaptureFZMotion[m[K(const std::string&, int, const std::string&, int)[m[K’:
+[17.120s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/include/libmotioncapture/fzmotion.h:165:29:[m[K [01;35m[Kwarning: [m[K‘[01m[Klibmotioncapture::MotionCaptureFZMotion::m_ConnectionSocket[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[17.120s]   165 |                 udp::socket [01;35m[Km_ConnectionSocket[m[K;
+[17.120s]       |                             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[17.120s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/include/libmotioncapture/fzmotion.h:164:29:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kboost::asio::ip::udp::socket libmotioncapture::MotionCaptureFZMotion::m_TransmissionSocket[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[17.121s]   164 |                 udp::socket [01;35m[Km_TransmissionSocket[m[K;
+[17.121s]       |                             [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.121s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/src/fzmotion.cpp:5:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[17.121s]     5 |     [01;35m[KMotionCaptureFZMotion[m[K::MotionCaptureFZMotion(
+[17.121s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[17.131s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/src/fzmotion.cpp:[m[K In member function ‘[01m[Kvoid libmotioncapture::MotionCaptureFZMotion::[01;32m[KreceiveFrameData[m[K()[m[K’:
+[17.132s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/src/fzmotion.cpp:293:9:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Kboost[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+[17.132s]   293 |         [01;35m[Kboost[m[K:system::error_code ec;
+[17.132s]       |         [01;35m[K^~~~~[m[K
+[17.135s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/src/fzmotion.cpp:[m[K In member function ‘[01m[Kvirtual const libmotioncapture::PointCloud& libmotioncapture::MotionCaptureFZMotion::[01;32m[KpointCloud[m[K() const[m[K’:
+[17.135s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/src/fzmotion.cpp:412:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KEigen::EigenBase<Eigen::Matrix<float, -1, 3, 1> >::Index[m[K’ {aka ‘[01m[Klong int[m[K’} and ‘[01m[Kstd::vector<libmotioncapture::LMarker>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[17.135s]   412 |         if ([01;35m[Kpointcloud_.size() != this->m_vctMarkData.size()[m[K) {
+[17.135s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.243s] In file included from [01m[K/usr/include/boost/system/detail/requires_cxx11.hpp:9[m[K,
+[17.243s]                  from [01m[K/usr/include/boost/system/detail/config.hpp:11[m[K,
+[17.243s]                  from [01m[K/usr/include/boost/system/detail/error_category.hpp:13[m[K,
+[17.243s]                  from [01m[K/usr/include/boost/system/detail/error_code.hpp:14[m[K,
+[17.243s]                  from [01m[K/usr/include/boost/system/error_code.hpp:13[m[K,
+[17.243s]                  from [01m[K/usr/include/boost/asio/detail/throw_error.hpp:20[m[K,
+[17.243s]                  from [01m[K/usr/include/boost/asio/detail/impl/posix_event.ipp:23[m[K,
+[17.243s]                  from [01m[K/usr/include/boost/asio/detail/posix_event.hpp:172[m[K,
+[17.244s]                  from [01m[K/usr/include/boost/asio/detail/event.hpp:25[m[K,
+[17.244s]                  from [01m[K/usr/include/boost/asio/execution/blocking_adaptation.hpp:19[m[K,
+[17.244s]                  from [01m[K/usr/include/boost/asio/execution.hpp:22[m[K,
+[17.244s]                  from [01m[K/usr/include/boost/asio/any_completion_executor.hpp:22[m[K,
+[17.244s]                  from [01m[K/usr/include/boost/asio.hpp:20[m[K,
+[17.244s]                  from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/include/libmotioncapture/fzmotion.h:7[m[K,
+[17.244s]                  from [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/src/motioncapture.cpp:25[m[K:
+[17.244s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[17.244s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[17.244s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[17.255s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/include/libmotioncapture/fzmotion.h:133:32:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[17.255s]   133 |                         struct [01;35m[K{[m[K uint8 v1; uint8 v2; uint8 v3; uint8 v4; };
+[17.255s]       |                                [01;35m[K^[m[K
+[17.255s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/include/libmotioncapture/fzmotion.h:138:32:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[17.255s]   138 |                         struct [01;35m[K{[m[K uint8 v1; uint8 v2; uint8 v3; uint8 v4; };
+[17.256s]       |                                [01;35m[K^[m[K
+[17.256s] [01m[K/home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/include/libmotioncapture/fzmotion.h:145:32:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[17.256s]   145 |                         struct [01;35m[K{[m[K octet h1; octet h2; octet l1; octet l2; };
+[17.256s]       |                                [01;35m[K^[m[K
+[18.134s] [ 96%] [32m[1mLinking CXX static library liblibmotioncapture.a[0m
+[18.205s] [ 96%] Built target libmotioncapture
+[18.221s] [ 98%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_node.dir/src/motion_capture_tracking_node.cpp.o[0m
+[27.029s] [100%] [32m[1mLinking CXX executable motion_capture_tracking_node[0m
+[28.323s] [100%] Built target motion_capture_tracking_node
+[28.333s] Invoked command in '/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces:/home/mouha/crazyflie/ros2_ws/install/micro_ros_setup:/home/mouha/crazyflie/ros2_ws/install/micro_ros_agent:/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs:/home/mouha/crazyflie/ros2_ws/install/drive_base_msgs:/home/mouha/crazyflie/ros2_ws/install/crazyflie_sim:/home/mouha/crazyflie/ros2_ws/install/crazyflie_examples:/home/mouha/crazyflie/ros2_ws/install/crazyflie:/home/mouha/crazyflie/ros2_ws/install/crazyflie_interfaces:/home/mouha/crazyflie/ros2_ws/install/crazyflie_description:/home/mouha/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking -- -j12 -l12
+[28.334s] Invoking command in '/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking': AMENT_PREFIX_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces:/home/mouha/crazyflie/ros2_ws/install/micro_ros_setup:/home/mouha/crazyflie/ros2_ws/install/micro_ros_agent:/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs:/home/mouha/crazyflie/ros2_ws/install/drive_base_msgs:/home/mouha/crazyflie/ros2_ws/install/crazyflie_sim:/home/mouha/crazyflie/ros2_ws/install/crazyflie_examples:/home/mouha/crazyflie/ros2_ws/install/crazyflie:/home/mouha/crazyflie/ros2_ws/install/crazyflie_interfaces:/home/mouha/crazyflie/ros2_ws/install/crazyflie_description:/home/mouha/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking
+[28.340s] -- Install configuration: ""
+[28.340s] -- Execute custom install script
+[28.341s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/include/vicon-datastream-sdk/DataStreamClient.h
+[28.348s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/include/vicon-datastream-sdk/IDataStreamClientBase.h
+[28.355s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/lib/cmake/vicon-datastream-sdk/vicon-datastream-sdkConfig.cmake
+[28.363s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/lib/cmake/vicon-datastream-sdk/vicon-datastream-sdkConfigVersion.cmake
+[28.370s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/lib/qualisys_cpp_sdk/qualisys_cpp_sdkConfig.cmake
+[28.377s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/lib/motion_capture_tracking/motion_capture_tracking_node
+[28.384s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/lib/motion_capture_tracking/libNatNet.so
+[28.390s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//launch/launch.py
+[28.396s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//launch/node.launch
+[28.402s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//config/cfg.yaml
+[28.408s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking//config/rviz.rviz
+[28.413s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/package_run_dependencies/motion_capture_tracking
+[28.419s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/parent_prefix_path/motion_capture_tracking
+[28.425s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/ament_prefix_path.sh
+[28.432s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/ament_prefix_path.dsv
+[28.439s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/path.sh
+[28.446s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/path.dsv
+[28.453s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.bash
+[28.459s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.sh
+[28.465s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.zsh
+[28.471s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.dsv
+[28.477s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.dsv
+[28.483s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/ament_index/resource_index/packages/motion_capture_tracking
+[28.489s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/cmake/motion_capture_trackingConfig.cmake
+[28.495s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/cmake/motion_capture_trackingConfig-version.cmake
+[28.501s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.xml
+[28.508s] Invoked command in '/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces:/home/mouha/crazyflie/ros2_ws/install/micro_ros_setup:/home/mouha/crazyflie/ros2_ws/install/micro_ros_agent:/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs:/home/mouha/crazyflie/ros2_ws/install/drive_base_msgs:/home/mouha/crazyflie/ros2_ws/install/crazyflie_sim:/home/mouha/crazyflie/ros2_ws/install/crazyflie_examples:/home/mouha/crazyflie/ros2_ws/install/crazyflie:/home/mouha/crazyflie/ros2_ws/install/crazyflie_interfaces:/home/mouha/crazyflie/ros2_ws/install/crazyflie_description:/home/mouha/ros2_ws/install/my_cpp_pkg:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking

@@ -1,0 +1,2 @@
+[console_scripts]
+mission_node = cf_led_mission.mission_node:main

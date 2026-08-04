@@ -1,0 +1,1 @@
+/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk/qualisys_cpp_sdkConfig.cmake

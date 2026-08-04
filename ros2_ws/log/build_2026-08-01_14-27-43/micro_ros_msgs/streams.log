@@ -1,0 +1,311 @@
+[0.007s] Invoking command in '/home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mouha/crazyflie/ros2_ws/src/uros/micro_ros_msgs -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs
+[0.013s] Not searching for unused variables given on the command line.
+[0.044s] -- The C compiler identification is GNU 13.3.0
+[0.082s] -- The CXX compiler identification is GNU 13.3.0
+[0.092s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.158s] -- Detecting C compile features
+[0.158s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.233s] -- Detecting CXX compiler ABI info - done
+[0.241s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.241s] -- Detecting CXX compile features
+[0.242s] -- Detecting CXX compile features - done
+[0.245s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.362s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.450s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.457s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.510s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.553s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.556s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.003s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.314s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.719s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.823s] -- Found PythonExtra: /usr/bin/python3  
+[2.187s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.236s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.241s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.246s] -- Added test 'lint_cmake' to check CMake code style
+[2.248s] -- Added test 'xmllint' to check XML markup files
+[2.254s] -- Configuring done (2.2s)
+[2.278s] -- Generating done (0.0s)
+[2.288s] -- Build files have been written to: /home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs
+[2.294s] Invoked command in '/home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mouha/crazyflie/ros2_ws/src/uros/micro_ros_msgs -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs
+[2.295s] Invoking command in '/home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs -- -j12 -l12
+[2.335s] [  3%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.335s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.341s] [  3%] Built target ament_cmake_python_copy_micro_ros_msgs
+[2.533s] running egg_info
+[2.534s] creating micro_ros_msgs.egg-info
+[2.540s] [  3%] Built target micro_ros_msgs__rosidl_generator_type_description
+[2.549s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.554s] [  5%] Built target micro_ros_msgs__rs
+[2.555s] writing micro_ros_msgs.egg-info/PKG-INFO
+[2.555s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[2.555s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[2.555s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[2.559s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.623s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[2.624s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[2.648s] [  7%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[2.836s] [  7%] Built target micro_ros_msgs__cpp
+[2.876s] [ 12%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__functions.c.o[0m
+[2.876s] [ 12%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__functions.c.o[0m
+[2.876s] [ 12%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__functions.c.o[0m
+[2.877s] [ 14%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__description.c.o[0m
+[2.877s] [ 16%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/graph__type_support.c.o[0m
+[2.877s] [ 18%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__description.c.o[0m
+[2.878s] [ 21%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/node__type_support.c.o[0m
+[2.878s] [ 21%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__description.c.o[0m
+[2.878s] [ 23%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_c.dir/rosidl_generator_c/micro_ros_msgs/msg/detail/entity__type_support.c.o[0m
+[2.917s] [ 25%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_c.so[0m
+[2.943s] [ 25%] Built target micro_ros_msgs__rosidl_generator_c
+[2.951s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.951s] [ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.951s] [ 36%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.951s] [ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.951s] [ 36%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.951s] [ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.188s] [ 41%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/entity__type_support.cpp.o[0m
+[3.188s] [ 41%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/graph__type_support.cpp.o[0m
+[3.188s] [ 41%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/micro_ros_msgs/msg/node__type_support.cpp.o[0m
+[3.195s] [ 47%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/graph__type_support.cpp.o[0m
+[3.195s] [ 47%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/entity__type_support.cpp.o[0m
+[3.195s] [ 47%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/micro_ros_msgs/msg/node__type_support.cpp.o[0m
+[3.241s] [ 49%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/entity__type_support.c.o[0m
+[3.242s] [ 50%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/graph__type_support.c.o[0m
+[3.242s] [ 52%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/micro_ros_msgs/msg/detail/node__type_support.c.o[0m
+[3.248s] [ 54%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_c.so[0m
+[3.250s] [ 56%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/graph__type_support.cpp.o[0m
+[3.251s] [ 58%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/node__type_support.cpp.o[0m
+[3.264s] [ 60%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/micro_ros_msgs/msg/detail/entity__type_support.cpp.o[0m
+[3.293s] [ 61%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.305s] [ 61%] Built target micro_ros_msgs__rosidl_typesupport_c
+[3.332s] [ 65%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/graph__type_support.cpp.o[0m
+[3.332s] [ 65%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/node__type_support.cpp.o[0m
+[3.339s] [ 67%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/micro_ros_msgs/msg/detail/dds_fastrtps/entity__type_support.cpp.o[0m
+[3.342s] [ 69%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/node__type_support_c.cpp.o[0m
+[3.344s] [ 70%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/graph__type_support_c.cpp.o[0m
+[3.356s] [ 70%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[3.375s] [ 72%] [32mBuilding CXX object CMakeFiles/micro_ros_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/micro_ros_msgs/msg/detail/entity__type_support_c.cpp.o[0m
+[3.577s] [ 74%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_cpp.so[0m
+[3.625s] [ 74%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[3.796s] [ 76%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.859s] [ 78%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.860s] [ 78%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[3.914s] [ 78%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[3.941s] [ 80%] [32m[1mLinking CXX shared library libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.993s] [ 80%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[4.007s] [ 80%] Built target micro_ros_msgs
+[4.023s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.343s] [ 81%] Built target micro_ros_msgs__py
+[4.359s] [ 87%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_entity_s.c.o[0m
+[4.359s] [ 87%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_graph_s.c.o[0m
+[4.359s] [ 87%] [32mBuilding C object CMakeFiles/micro_ros_msgs__rosidl_generator_py.dir/rosidl_generator_py/micro_ros_msgs/msg/_node_s.c.o[0m
+[4.453s] [ 89%] [32m[1mLinking C shared library libmicro_ros_msgs__rosidl_generator_py.so[0m
+[4.484s] [ 89%] Built target micro_ros_msgs__rosidl_generator_py
+[4.501s] [ 94%] [32mBuilding C object CMakeFiles/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.501s] [ 94%] [32mBuilding C object CMakeFiles/micro_ros_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.501s] [ 94%] [32mBuilding C object CMakeFiles/micro_ros_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.574s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[4.575s] [100%] [32m[1mLinking C shared module rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.575s] [100%] [32m[1mLinking C shared module rosidl_generator_py/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so[0m
+[4.597s] [100%] Built target micro_ros_msgs_s__rosidl_typesupport_fastrtps_c
+[4.597s] [100%] Built target micro_ros_msgs_s__rosidl_typesupport_introspection_c
+[4.597s] [100%] Built target micro_ros_msgs_s__rosidl_typesupport_c
+[4.606s] Invoked command in '/home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs -- -j12 -l12
+[4.613s] Invoking command in '/home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs
+[4.620s] -- Install configuration: ""
+[4.620s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[4.620s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.json
+[4.620s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.json
+[4.620s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.json
+[4.620s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[4.620s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[4.620s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[4.620s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[4.620s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.620s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[4.620s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[4.620s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[4.620s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__description.c
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__description.c
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__description.c
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[4.621s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[4.622s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[4.622s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[4.622s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so" to ""
+[4.622s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[4.622s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[4.622s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[4.622s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[4.622s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[4.622s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[4.622s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.622s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[4.622s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.622s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[4.622s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[4.622s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.622s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[4.622s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[4.623s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[4.623s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[4.623s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[4.623s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[4.623s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[4.623s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[4.623s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.623s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[4.623s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so" to ""
+[4.623s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[4.623s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[4.623s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[4.623s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.623s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[4.623s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[4.623s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[4.624s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[4.624s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[4.624s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[4.624s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[4.624s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[4.624s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[4.624s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp
+[4.624s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp
+[4.624s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[4.624s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp
+[4.624s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[4.624s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[4.624s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[4.624s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[4.624s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.625s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[4.625s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[4.625s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps
+[4.625s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[4.625s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[4.625s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.625s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.625s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[4.625s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[4.625s] -- Up-to-date: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[4.625s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[4.625s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[4.625s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[4.625s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[4.625s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp
+[4.626s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[4.626s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[4.626s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.626s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[4.626s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so" to ""
+[4.626s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[4.626s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[4.626s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info
+[4.626s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/top_level.txt
+[4.626s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/SOURCES.txt
+[4.626s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/PKG-INFO
+[4.626s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/dependency_links.txt
+[4.626s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs
+[4.626s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/__init__.py
+[4.627s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[4.627s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.627s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[4.627s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[4.627s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg
+[4.627s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/__init__.py
+[4.627s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph_s.c
+[4.627s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node_s.c
+[4.627s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph.py
+[4.627s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity.py
+[4.627s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node.py
+[4.627s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity_s.c
+[4.627s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.627s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so
+[4.660s] Listing '/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs'...
+[4.661s] Compiling '/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/__init__.py'...
+[4.661s] Listing '/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg'...
+[4.661s] Compiling '/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/__init__.py'...
+[4.661s] Compiling '/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity.py'...
+[4.661s] Compiling '/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph.py'...
+[4.661s] Compiling '/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node.py'...
+[4.665s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[4.665s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[4.665s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[4.665s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[4.665s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so
+[4.666s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so" to ""
+[4.666s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[4.666s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so" to ""
+[4.666s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rust_packages/micro_ros_msgs
+[4.666s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust
+[4.666s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/Cargo.toml
+[4.666s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/build.rs
+[4.666s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src
+[4.666s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/lib.rs
+[4.666s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg.rs
+[4.666s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg
+[4.667s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg/rmw.rs
+[4.667s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[4.667s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[4.667s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[4.667s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[4.667s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[4.667s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[4.667s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[4.667s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[4.667s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[4.667s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[4.667s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[4.667s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[4.668s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[4.668s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[4.668s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[4.668s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[4.668s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[4.668s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[4.668s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[4.668s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.668s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.668s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.668s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.669s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.669s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[4.669s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.669s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[4.669s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.669s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.669s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.669s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.669s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[4.669s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.669s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[4.669s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.669s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[4.670s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.670s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.670s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.670s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.670s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.670s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.670s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[4.670s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[4.670s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[4.672s] Invoked command in '/home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mouha/crazyflie/ros2_ws/build/micro_ros_msgs

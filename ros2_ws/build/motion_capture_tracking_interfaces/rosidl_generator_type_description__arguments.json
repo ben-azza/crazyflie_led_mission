@@ -1,0 +1,15 @@
+{
+  "package_name": "motion_capture_tracking_interfaces",
+  "output_dir": "/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_generator_type_description/motion_capture_tracking_interfaces",
+  "idl_tuples": [
+    "/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces:msg/LatencyInfo.idl",
+    "/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces:msg/NamedPose.idl",
+    "/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces:msg/NamedPoseArray.idl",
+    "/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces/rosidl_adapter/motion_capture_tracking_interfaces:msg/NamedPoseArrayV2.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs"
+  ]
+}

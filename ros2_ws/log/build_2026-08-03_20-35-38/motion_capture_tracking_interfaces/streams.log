@@ -1,0 +1,303 @@
+[0.020s] Invoking command in '/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces
+[0.064s] -- The C compiler identification is GNU 13.3.0
+[0.149s] -- The CXX compiler identification is GNU 13.3.0
+[0.169s] -- Detecting C compiler ABI info
+[0.242s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.255s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.334s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.334s] -- Detecting CXX compile features
+[0.334s] -- Detecting CXX compile features - done
+[0.338s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.512s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.557s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.603s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.642s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.656s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.671s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.687s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.704s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.736s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.757s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.371s] -- Found ament_cmake_cppcheck: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[1.377s] -- Found ament_cmake_cpplint: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[1.384s] -- Found ament_cmake_uncrustify: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[1.392s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.551s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.558s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.684s] -- Found PythonExtra: /usr/bin/python3  
+[3.259s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.320s] -- Found ament_cmake_flake8: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[3.324s] -- Found ament_cmake_pep257: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[3.373s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.382s] -- Configuring done (3.4s)
+[3.422s] -- Generating done (0.0s)
+[3.432s] -- Build files have been written to: /home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces
+[3.442s] Invoked command in '/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mouha/crazyflie/ros2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces
+[3.443s] Invoking command in '/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces -- -j12 -l12
+[3.488s] [  3%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.488s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[3.495s] [  3%] Built target ament_cmake_python_symlink_motion_capture_tracking_interfaces
+[3.714s] running egg_info
+[3.715s] creating motion_capture_tracking_interfaces.egg-info
+[3.731s] [  3%] Built target motion_capture_tracking_interfaces__rosidl_generator_type_description
+[3.736s] [  3%] Built target motion_capture_tracking_interfaces__rs
+[3.738s] writing motion_capture_tracking_interfaces.egg-info/PKG-INFO
+[3.738s] writing dependency_links to motion_capture_tracking_interfaces.egg-info/dependency_links.txt
+[3.738s] writing top-level names to motion_capture_tracking_interfaces.egg-info/top_level.txt
+[3.738s] writing manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[3.740s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.751s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.807s] reading manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[3.807s] writing manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[3.841s] [  6%] Built target ament_cmake_python_build_motion_capture_tracking_interfaces_egg
+[4.084s] [  6%] Built target motion_capture_tracking_interfaces__cpp
+[4.181s] [  7%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/latency_info__functions.c.o[0m
+[4.181s] [ 12%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__description.c.o[0m
+[4.181s] [ 12%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose__description.c.o[0m
+[4.181s] [ 13%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose__functions.c.o[0m
+[4.182s] [ 15%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.c.o[0m
+[4.182s] [ 16%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.c.o[0m
+[4.182s] [ 18%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__description.c.o[0m
+[4.182s] [ 18%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/latency_info__description.c.o[0m
+[4.185s] [ 20%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__type_support.c.o[0m
+[4.185s] [ 21%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/latency_info__type_support.c.o[0m
+[4.187s] [ 23%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__functions.c.o[0m
+[4.191s] [ 24%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__functions.c.o[0m
+[4.244s] [ 26%] [32m[1mLinking C shared library libmotion_capture_tracking_interfaces__rosidl_generator_c.so[0m
+[4.275s] [ 26%] Built target motion_capture_tracking_interfaces__rosidl_generator_c
+[4.284s] [ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.284s] [ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.284s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.284s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.284s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.286s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.538s] [ 38%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/named_pose_array__type_support.cpp.o[0m
+[4.538s] [ 38%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/named_pose_array_v2__type_support.cpp.o[0m
+[4.538s] [ 40%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/latency_info__type_support.cpp.o[0m
+[4.538s] [ 41%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/named_pose__type_support.cpp.o[0m
+[4.543s] [ 44%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/named_pose__type_support.cpp.o[0m
+[4.543s] [ 44%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/latency_info__type_support.cpp.o[0m
+[4.543s] [ 46%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/named_pose_array_v2__type_support.cpp.o[0m
+[4.551s] [ 47%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/named_pose_array__type_support.cpp.o[0m
+[4.613s] [ 49%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so[0m
+[4.623s] [ 50%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.c.o[0m
+[4.624s] [ 52%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__type_support.c.o[0m
+[4.624s] [ 53%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.c.o[0m
+[4.627s] [ 55%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/latency_info__type_support.c.o[0m
+[4.672s] [ 55%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_c
+[4.695s] [ 60%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.cpp.o[0m
+[4.695s] [ 60%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__type_support.cpp.o[0m
+[4.695s] [ 60%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/latency_info__type_support.cpp.o[0m
+[4.695s] [ 61%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.cpp.o[0m
+[4.700s] [ 63%] [32m[1mLinking C shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.704s] [ 66%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/named_pose__type_support.cpp.o[0m
+[4.704s] [ 66%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/latency_info__type_support.cpp.o[0m
+[4.742s] [ 66%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c
+[4.753s] [ 67%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/named_pose_array__type_support.cpp.o[0m
+[4.804s] [ 69%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/latency_info__type_support_c.cpp.o[0m
+[4.925s] [ 70%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support_c.cpp.o[0m
+[4.940s] [ 72%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/named_pose_array_v2__type_support.cpp.o[0m
+[4.989s] [ 73%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support_c.cpp.o[0m
+[5.014s] [ 75%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so[0m
+[5.071s] [ 75%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_cpp
+[5.084s] [ 76%] [32mBuilding CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__type_support_c.cpp.o[0m
+[5.223s] [ 78%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.329s] [ 78%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp
+[5.470s] [ 80%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.504s] [ 81%] [32m[1mLinking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.530s] [ 81%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.560s] [ 81%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c
+[5.576s] [ 81%] Built target motion_capture_tracking_interfaces
+[5.591s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.956s] [ 83%] Built target motion_capture_tracking_interfaces__py
+[5.972s] [ 89%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_named_pose_array_v2_s.c.o[0m
+[5.972s] [ 89%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_named_pose_array_s.c.o[0m
+[5.972s] [ 89%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_named_pose_s.c.o[0m
+[5.972s] [ 89%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_latency_info_s.c.o[0m
+[6.067s] [ 90%] [32m[1mLinking C shared library libmotion_capture_tracking_interfaces__rosidl_generator_py.so[0m
+[6.101s] [ 90%] Built target motion_capture_tracking_interfaces__rosidl_generator_py
+[6.117s] [ 95%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.117s] [ 95%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.117s] [ 95%] [32mBuilding C object CMakeFiles/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.194s] [100%] [32m[1mLinking C shared module rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.194s] [100%] [32m[1mLinking C shared module rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.so[0m
+[6.195s] [100%] [32m[1mLinking C shared module rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[6.218s] [100%] Built target motion_capture_tracking_interfaces_s__rosidl_typesupport_c
+[6.218s] [100%] Built target motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c
+[6.218s] [100%] Built target motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c
+[6.227s] Invoked command in '/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces -- -j12 -l12
+[6.227s] Invoking command in '/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces
+[6.234s] -- Install configuration: ""
+[6.234s] -- Execute custom install script
+[6.235s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/rosidl_interfaces/motion_capture_tracking_interfaces
+[6.241s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/LatencyInfo.json
+[6.248s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPose.json
+[6.255s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArray.json
+[6.261s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArrayV2.json
+[6.268s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__functions.h
+[6.274s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__struct.h
+[6.280s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__type_support.h
+[6.285s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__functions.h
+[6.291s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__struct.h
+[6.297s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.h
+[6.304s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__functions.h
+[6.310s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__struct.h
+[6.316s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.h
+[6.322s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__functions.h
+[6.328s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__struct.h
+[6.334s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__type_support.h
+[6.340s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/latency_info.h
+[6.346s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose.h
+[6.352s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array.h
+[6.358s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array_v2.h
+[6.365s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.371s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/library_path.sh
+[6.377s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/library_path.dsv
+[6.383s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__rosidl_typesupport_fastrtps_c.h
+[6.389s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_fastrtps_c.h
+[6.395s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_fastrtps_c.h
+[6.401s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__rosidl_typesupport_fastrtps_c.h
+[6.408s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.414s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__builder.hpp
+[6.420s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__struct.hpp
+[6.426s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__traits.hpp
+[6.432s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__type_support.hpp
+[6.438s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__builder.hpp
+[6.444s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__struct.hpp
+[6.450s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__traits.hpp
+[6.456s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.hpp
+[6.463s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__builder.hpp
+[6.470s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__struct.hpp
+[6.477s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__traits.hpp
+[6.483s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.hpp
+[6.490s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__builder.hpp
+[6.496s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__struct.hpp
+[6.503s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__traits.hpp
+[6.509s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__type_support.hpp
+[6.517s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/latency_info.hpp
+[6.523s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose.hpp
+[6.529s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array.hpp
+[6.534s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array_v2.hpp
+[6.540s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.547s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__rosidl_typesupport_fastrtps_cpp.hpp
+[6.553s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[6.559s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[6.565s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__rosidl_typesupport_fastrtps_cpp.hpp
+[6.571s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.577s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__rosidl_typesupport_introspection_c.h
+[6.582s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_introspection_c.h
+[6.588s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_introspection_c.h
+[6.594s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__rosidl_typesupport_introspection_c.h
+[6.600s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.605s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/latency_info__rosidl_typesupport_introspection_cpp.hpp
+[6.612s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_introspection_cpp.hpp
+[6.618s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_introspection_cpp.hpp
+[6.624s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array_v2__rosidl_typesupport_introspection_cpp.hpp
+[6.630s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/pythonpath.sh
+[6.636s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/pythonpath.dsv
+[6.641s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces-1.0.9-py3.12.egg-info/PKG-INFO
+[6.647s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces-1.0.9-py3.12.egg-info/SOURCES.txt
+[6.653s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces-1.0.9-py3.12.egg-info/dependency_links.txt
+[6.658s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces-1.0.9-py3.12.egg-info/top_level.txt
+[6.664s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/__init__.py
+[6.670s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_c.c
+[6.676s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.682s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.688s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.so
+[6.693s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[6.699s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.so
+[6.705s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/__init__.py
+[6.711s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_latency_info.py
+[6.717s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_latency_info_s.c
+[6.723s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose.py
+[6.729s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose_array.py
+[6.735s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose_array_s.c
+[6.740s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose_array_v2.py
+[6.746s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose_array_v2_s.c
+[6.753s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose_s.c
+[6.760s] -- Up-to-date symlink: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[6.760s] -- Up-to-date symlink: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.so
+[6.760s] -- Up-to-date symlink: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.so
+[6.760s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/rust_packages/motion_capture_tracking_interfaces
+[6.767s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/Cargo.toml
+[6.773s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/build.rs
+[6.778s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/src/lib.rs
+[6.784s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/src/msg.rs
+[6.790s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/src/msg/rmw.rs
+[6.796s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/LatencyInfo.idl
+[6.801s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPose.idl
+[6.807s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArray.idl
+[6.814s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArrayV2.idl
+[6.820s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/LatencyInfo.msg
+[6.825s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPose.msg
+[6.831s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArray.msg
+[6.837s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArrayV2.msg
+[6.843s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/package_run_dependencies/motion_capture_tracking_interfaces
+[6.850s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/parent_prefix_path/motion_capture_tracking_interfaces
+[6.856s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/ament_prefix_path.sh
+[6.863s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/ament_prefix_path.dsv
+[6.869s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/path.sh
+[6.875s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/path.dsv
+[6.881s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.bash
+[6.886s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.sh
+[6.893s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.zsh
+[6.900s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.dsv
+[6.906s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.dsv
+[6.913s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/packages/motion_capture_tracking_interfaces
+[6.919s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.925s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.931s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.937s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.943s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.949s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.956s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.963s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfacesConfig.cmake
+[6.969s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfacesConfig-version.cmake
+[6.975s] -- Symlinking: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.xml
+[6.981s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_c.so
+[6.981s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_c.so" to ""
+[6.981s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.981s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.981s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.982s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.982s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so
+[6.982s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.982s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so
+[6.982s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so" to ""
+[6.982s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.982s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.982s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so
+[6.983s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.014s] Listing '/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces'...
+[7.015s] Compiling '/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/__init__.py'...
+[7.015s] Listing '/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg'...
+[7.015s] Compiling '/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/__init__.py'...
+[7.015s] Compiling '/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_latency_info.py'...
+[7.015s] Compiling '/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose.py'...
+[7.015s] Compiling '/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose_array.py'...
+[7.015s] Compiling '/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/python3.12/site-packages/motion_capture_tracking_interfaces/msg/_named_pose_array_v2.py'...
+[7.019s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_py.so
+[7.019s] -- Set non-toolchain portion of runtime path of "/home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_py.so" to ""
+[7.019s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cExport.cmake
+[7.019s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.019s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.019s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.019s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cppExport.cmake
+[7.019s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.019s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.019s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.020s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.020s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cExport.cmake
+[7.020s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.020s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.020s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.020s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cppExport.cmake
+[7.020s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.020s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_pyExport.cmake
+[7.020s] -- Installing: /home/mouha/crazyflie/ros2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[7.022s] Invoked command in '/home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mouha/crazyflie/ros2_ws/install/crazyflie_server_py:/home/mouha/crazyflie/ros2_ws/install/cf_led_mission:/home/mouha/crazyflie/ros2_ws/install/crazyflie_py:/home/mouha/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mouha/crazyflie/ros2_ws/build/motion_capture_tracking_interfaces
